@@ -9,7 +9,7 @@ export async function explainExpression(expression, result) {
     return "Type some Expression like (3 + 5), press =, then ask Ai"
   }
 
-  const key = "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"
+  const key = "Enter Your Key"
 
   if (!key) {
     return "Missing API key"
@@ -74,4 +74,5 @@ export async function explainExpression(expression, result) {
     return "Couldn't reach AI service right noe, Please try again."
   }
   
+
 }
